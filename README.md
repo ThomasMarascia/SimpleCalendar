@@ -15,22 +15,22 @@ This is a simple calendar asset for Unity. It is usable in 3D and 2D projects. I
 ## Installation
 1. Download the Asset from the Unity asset store or Github
 2. Right click an empty spot on your asset browser
-3. Import the package ![Import](Image1.png)
-4. Add the calendar asset to your scene ![Add Calendar](AddingCalendarGif.gif)
-5. **IMPORTANT:** If your scene does not have an EventSystem object, add one or the buttons won't work! ![Add EventSystem](Image2.png)
+3. Import the package ![Import](README/Image1.png)
+4. Add the calendar asset to your scene ![Add Calendar](README/AddingCalendarGif.gif)
+5. **IMPORTANT:** If your scene does not have an EventSystem object, add one or the buttons won't work! ![Add EventSystem](README/Image2.png)
 
 ## Customization
 
 ### Starting day of the week
-If you would like the calendar to start the weeks with mondays or any other day, change the Starting Weekday variable in the Calendar prefab here: ![Make Calendar 3D](Image5.png)
+If you would like the calendar to start the weeks with mondays or any other day, change the Starting Weekday variable in the Calendar prefab here: ![Make Calendar 3D](README/Image5.png)
 
 ### 3D world support
-To put the calendar in the 3D world and not simply fill the screen, simply install it into a 3d project using the installation instructions above and then change the render mode to world space and move and scale the calendar appropriately. If you want the buttons to still work with mouse input, set the event camera to your user's camera ![Make Calendar 3D](Image3.png)
+To put the calendar in the 3D world and not simply fill the screen, simply install it into a 3d project using the installation instructions above and then change the render mode to world space and move and scale the calendar appropriately. If you want the buttons to still work with mouse input, set the event camera to your user's camera ![Make Calendar 3D](README/Image3.png)
 
 Otherwise, keeping it on overlay will simple fill the screen. This can be adjusted to be within other menus for things like daily rewards.
 
 ### Changing the look
-For the days of the week headers (the words sunday, monday, tuesday, etc that show up on the top of the calendar), you need to adjust the DayOfTheWeek prefab. For the days themselves, you need to adjust the DayButton prefab. The day button prefab's script has variables for the color scheme that you can change in the editor here: ![Change Day Colors](Image4.png)
+For the days of the week headers (the words sunday, monday, tuesday, etc that show up on the top of the calendar), you need to adjust the DayOfTheWeek prefab. For the days themselves, you need to adjust the DayButton prefab. The day button prefab's script has variables for the color scheme that you can change in the editor here: ![Change Day Colors](README/Image4.png)
 
 To customize the rest of the look of the calendar, just change it like any other UI element. You can change colors, fonts, sizes, layout, etc.
 
